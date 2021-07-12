@@ -17,7 +17,7 @@ class MovieRecommender():
             self.k_values = [160, 170, 180, 190, 200]
         else:
             # uses the otimum value for k
-            self.k_values = [130]
+            self.k_values = [180]
 
         self.structuring()
         self.normalize()
